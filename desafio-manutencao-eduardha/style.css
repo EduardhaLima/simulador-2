@@ -5,12 +5,21 @@ body {
 }
     
 header {
-    width: 1024px;
+    display: flex;
     color:#ffffff;
+    font-weight: bold;
     background-color: #333;
-    margin: 0 auto;
-    padding: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+header > h1 {
     text-align: center;
+    
+} 
+header > p {
+    display: flex;
 }
 
 section{
