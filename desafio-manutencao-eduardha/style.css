@@ -12,14 +12,16 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    flex-direction: column;
+    padding: 10px;
 }
 header > h1 {
     text-align: center;
-    
+    display: flex;
 } 
 header > p {
     display: flex;
+    padding: 50px;
 }
 
 section{
