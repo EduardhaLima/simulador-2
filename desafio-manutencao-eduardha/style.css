@@ -6,44 +6,52 @@ body {
     
 header {
     display: flex;
-    color:#ffffff;
+    color:#000000;
     font-weight: bold;
-    background-color: #333;
-    flex-direction: row;
+    background-color: #4f38ff;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 10px;
+    padding: 5px;
 }
 header > h1 {
     text-align: center;
     display: flex;
+    font-size: 50px;
+    padding: 10px;
 } 
 header > p {
     display: flex;
-    padding: 50px;
+    font-size: 20px;
 }
 
 section{
-    background-color: #686767;
-    padding: 20px;
+    background-color: #ffffff;
+    padding: 10px;
     text-align: center;
+    color:#000000;
 }
 
-.conteudo{
-    color: white;
-}
-
-.botoes{
+section > div > img{
+    width: 300px;
     padding: 20px;
-    background: rgb(255, 255, 255);
-    color: white;
+}
+
+section > div > p{
+    padding: 20px;
+}
+
+section > div > button{
+    padding: 20px;
+    background: #a599fe;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
 footer{
-    background: #333; 
-    color: white; 
-    padding: 10px; 
+    background: #4f38ff; 
+    color: rgb(0, 0, 0); 
+    padding: 25px; 
     text-align: center;
+    font-weight: bold;
 }
