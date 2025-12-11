@@ -54,3 +54,19 @@ footer{
     text-align: center;
     font-weight: bold;
 }
+
+/* Estilos Padrão (Para telas menores que 1054px) */
+.container {
+    width: 90%; /* Ex: Em telas pequenas, ocupa 90% da largura */
+    margin: 10px;
+    background-color: #f0f0f0;
+}
+
+@media screen and (min-width: 1054px) {
+    
+    .container {
+        width: 1000px; 
+        margin: 0 auto; 
+        background-color: #ffffff; 
+    }
+}
