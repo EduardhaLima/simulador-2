@@ -10,7 +10,6 @@ header {
     font-weight: bold;
     background-color: #4f38ff;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     padding: 5px;
 }
