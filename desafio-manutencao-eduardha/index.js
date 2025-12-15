@@ -7,12 +7,12 @@ function clicked() {
 }
 
 function addEvents() {
-    const button = document.getElementById('container-principal'); 
+    const button = document.getElementById('meuBotao'); 
 
     if (button) {
         button.addEventListener('click', clicked); 
     } else {
-        console.error("Elemento com ID 'botao' não encontrado!");
+        console.error("Elemento com ID 'meuBotao' não encontrado!");
     }
 }
 
