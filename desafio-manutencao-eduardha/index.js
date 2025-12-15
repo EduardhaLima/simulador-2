@@ -7,7 +7,7 @@ function clicked() {
 }
 
 function addEvents() {
-    const button = document.getElementById('botao'); 
+    const button = document.getElementById('container-principal'); 
 
     if (button) {
         button.addEventListener('click', clicked); 
