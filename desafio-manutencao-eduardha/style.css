@@ -1,3 +1,18 @@
+#container-principal{
+    width: 90%; 
+    margin: 10px auto;
+    background-color: #f0f0f0;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    #container-principal{
+        width: 1000px; 
+        margin: 0 auto; 
+        background-color: #ffffff; 
+    }
+}
+
 header {
     display: flex;
     color:#000000;
@@ -5,7 +20,7 @@ header {
     background-color: #4f38ff;
     align-items: center;
     flex-direction: column;
-    padding: 5px;
+    padding: 15px;
 }
 header > h1 {
     text-align: center;
@@ -23,27 +38,33 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
-section{
+
+#container-principal{
     background-color: #ffffff;
     padding: 10px;
     text-align: center;
-    color:#000000;
+    color: #000000;
 }
 
-section > div > img{
+section > img{
+    max-width: 100%;
     width: 300px;
     padding: 20px;
 }
 
-section > div > p{
+section > p{
     padding: 20px;
 }
 
 section > button{
-    padding: 20px;
+    padding: 10px;
     background: #a599fe;
     color: rgb(0, 0, 0);
     text-align: center;
+    border: none;
+    display: block;
+    margin: 20px auto;
+
 }
 
 footer{
@@ -52,19 +73,4 @@ footer{
     padding: 25px; 
     text-align: center;
     font-weight: bold;
-}
-
-.body{
-    width: 90%; 
-    margin: 10px;
-    background-color: #f0f0f0;
-}
-
-@media screen and (min-width: 1024px) {
-    
-    .body {
-        width: 1000px; 
-        margin: 0 auto; 
-        background-color: #ffffff; 
-    }
 }
