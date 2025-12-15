@@ -39,7 +39,7 @@ section > div > p{
     padding: 20px;
 }
 
-section > div > button{
+section > button{
     padding: 20px;
     background: #a599fe;
     color: rgb(0, 0, 0);
@@ -54,15 +54,15 @@ footer{
     font-weight: bold;
 }
 
-.container {
+.body{
     width: 90%; 
     margin: 10px;
     background-color: #f0f0f0;
 }
 
-@media screen and (min-width: 1054px) {
+@media screen and (min-width: 1024px) {
     
-    .container {
+    .body {
         width: 1000px; 
         margin: 0 auto; 
         background-color: #ffffff; 
